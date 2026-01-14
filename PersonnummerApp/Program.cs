@@ -11,7 +11,7 @@ namespace PersonnummerApp
             Console.WriteLine("    SVENSK PERSONNUMMERKONTROLL");
             Console.WriteLine("========================================");
             
-            while (true) // Loop så ni kan testa flera nummer efter varandra
+            while (true) // Loop så ni kan testa flera nummer efter varandra test
             {
                 Console.WriteLine("\nSkriv in ett personnummer (eller 'avsluta' för att stänga):");
                 Console.Write("> ");
