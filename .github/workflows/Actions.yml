@@ -19,10 +19,13 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore dependencies
-      run: dotnet restore
+      # Här lägger vi till namnet på lösningsfilen
+      run: dotnet restore PersonnummerProjekt.sln
 
     - name: Build
-      run: dotnet build --no-restore
+      # Här lägger vi till namnet på lösningsfilen
+      run: dotnet build PersonnummerProjekt.sln --no-restore
 
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      # Här lägger vi till namnet på lösningsfilen
+      run: dotnet test PersonnummerProjekt.sln --no-build --verbosity normal
