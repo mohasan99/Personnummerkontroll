@@ -38,6 +38,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: 91ogsn/Personnummerkontroll:latest
+          tags: 91ogsn/personnummerkontroll:latest
 
 
